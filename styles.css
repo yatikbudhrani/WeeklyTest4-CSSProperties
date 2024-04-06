@@ -376,3 +376,11 @@ footer a {
         margin-bottom: 30px;
     }
 }
+
+.zoom {
+    transition: transform 0.5s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
